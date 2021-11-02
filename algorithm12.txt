@@ -1,0 +1,6 @@
+Alogorithm to add numbers-
+1.Start
+2.Accept the two numbers
+3.Perform Addition of the two numbers
+4.Display the result
+5.Stop
