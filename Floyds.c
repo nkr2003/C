@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main() 
 {
-  int rows, i, j, number = 1;
+  int rows, i, j, N = 1;
   printf("Enter the number of rows: ");
   scanf("%d", &rows);
   for (i = 1; i <= rows; i++) 
@@ -9,7 +9,7 @@ int main()
     for (j = 1; j <= i; ++j) 
     {
       printf("%d ", number);
-      number++;
+      N++;
     }
     printf("\n");
   }
