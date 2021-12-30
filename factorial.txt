@@ -1,0 +1,5 @@
+Step 1  -START
+Step 2 - Enter the value of Fact.
+Step 3 -From value fact upto 1 multiply each digit.
+Step 4 - The final value is factorial Number.
+Step 5 -STOP

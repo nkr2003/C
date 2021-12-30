@@ -1,0 +1,5 @@
+1. start
+2. get nth term of fibo series from user
+3. get fibonacci series but with each loop, add value to a variable
+4. print value in variable
+5. stop

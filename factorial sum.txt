@@ -1,0 +1,6 @@
+1. start
+2. get nth term from user
+3. find factorial of n
+4. find sum of digits by using n%10, adding to a variable and n/10
+5. display variable-s
+6. stop
