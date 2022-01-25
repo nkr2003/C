@@ -49,4 +49,8 @@ int main() {
   printf("Is the number amstrong ?  %d\n", amstrong(n));
   printf("Is the number perfect ?  %d\n", perfect(n));
   return 0;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> origin/module-3
