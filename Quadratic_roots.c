@@ -1,24 +1,24 @@
 # include <stdio.h>
 # include <math.h>
 int main() {
-  int a, b, c;
-  printf("Enter valid values for a, b and C...\n");
-  printf("a = ");
-  scanf("%d", &a);
-  printf("b = ");
-  scanf("%d", &b);
-  printf("c = ");
-  scanf("%d", &c);
+  int x, y, z;
+  printf("Enter valid values for x, y and z...\n");
+  printf("x = ");
+  scanf("%d", &x);
+  printf("y = ");
+  scanf("%d", &y);
+  printf("z = ");
+  scanf("%d", &z);
 
-  int determinant = b*b - 4*a*c;
+  int determinant = y*y - 4*x*z;
   
   if (determinant == 0)
-    printf("The expression has equal roots : %d\n", -b/(2*a));
+    printf("The expression has equal roots : %d\n", -y/(2*x));
   else if (determinant < 0)
     printf("The expression has imaginary roots\n");
   else {
     float temp = sqrt(determinant);
-    printf("Root1 = %f\n", (-b + temp)/(2*a) );
-    printf("Root2 = %f\n", (-b - temp)/(2*a) );
+    printf("Root1 = %f\n", (-b + temp)/(2*x) );
+    printf("Root2 = %f\n", (-b - temp)/(2*x) );
   }
 }
