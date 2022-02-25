@@ -1,0 +1,9 @@
+step 1: START
+step 2: enter 1st value - A
+step 3: enter 2nd value - B
+step 4: enter 3nd value - C
+step 5: enter 4th value - D
+step 6: then we add the 4 values that is A+B+C+D it is the sum [A+B+C+D->sum]
+step 7: if it is true print 'Same Color'
+step 8: if it is false print 'Different Color' 
+atep 9: End
